@@ -1,0 +1,180 @@
+[
+  {
+    "ContainingType": "HumanResourceManagement.Api.Controllers.EmployeeController",
+    "Method": "CreateEmployeeAsync",
+    "RelativePath": "api/Employee/CreateEmployee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "firstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "middleName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "lastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "birthdate",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "contactNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "departmentName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "positionName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "salary",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "registrationDate",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HumanResourceManagement.Api.Controllers.EmployeeController",
+    "Method": "DeleteEmployeeAsync",
+    "RelativePath": "api/Employee/DeleteEmployee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HumanResourceManagement.Api.Controllers.EmployeeController",
+    "Method": "ReadEmployeesAsync",
+    "RelativePath": "api/Employee/ReadEmployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[HumanResourceManagement.Api.Models.Employee, HumanResourceManagement.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HumanResourceManagement.Api.Controllers.EmployeeController",
+    "Method": "UpdateEmployeeAsync",
+    "RelativePath": "api/Employee/UpdateEmployee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "contactNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "departmentName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "positionName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "salary",
+        "Type": "System.Single",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

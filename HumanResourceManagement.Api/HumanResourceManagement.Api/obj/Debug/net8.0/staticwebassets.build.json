@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Kd5ECQBZazLTkM/24wl54db5AbV8aiugdE1pApYFrBU=",
+  "Source": "HumanResourceManagement.Api",
+  "BasePath": "_content/HumanResourceManagement.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
